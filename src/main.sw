@@ -1,11 +1,5 @@
-contract;
+script;
 
-abi MyContract {
-    fn test_function() -> bool;
+fn main() {
 }
 
-impl MyContract for Contract {
-    fn test_function() -> bool {
-        true
-    }
-}
